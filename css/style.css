@@ -1,0 +1,165 @@
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+.half-height {
+    min-height: 50vh;
+}
+
+.quarter-height {
+    min-height: 25vh;
+}
+
+.vertical-divider {
+    border-top: 1px solid black;
+}
+
+nav a {
+    text-shadow: 1px 1px black;
+}
+
+#intro {
+    height: 75vh;
+    background-image: url("/image/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro h3 {
+    display: none;
+}
+
+#intro h1, #intro h2, #intro h3 {
+    text-align: center;
+}
+
+#intro h1 {
+    text-shadow: 1px 1px black;
+    padding-top: 25vh;
+}
+
+@media only screen and (max-width: 576px) {
+    #intro .carousel-caption {
+        display: none;
+    }
+    #intro h1 {
+        display: none;
+    }
+    #intro h3 {
+        text-shadow: 1px 1px black;
+        display: block;
+        padding-top: 35vh;
+    }
+}
+
+#production {
+    text-align: center;
+}
+
+#production h3, #production h4 {
+    padding: 50px;
+}
+
+.card {
+    background-color: black;
+    padding: 30px;
+}
+
+.card-body {
+    width: 100%;
+    word-wrap: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media-section-light {
+    background-color: wheat;
+}
+
+.social-media-section-light *, .social-media-section-light a {
+    color: black;
+}
+
+.social-media-section-light h3 {
+    text-align: right;
+    padding: 40vh 2px 0px 35px;
+}
+
+.social-media-section-light h6 {
+    text-align: right;
+    padding: 2vh 2px 0px 35px;
+}
+
+.social-media-section-light p {
+    text-align: center;
+    padding: 45vh 0px 0px 15px;
+}
+
+@media only screen and (max-width: 576px) {
+    .social-media-section-light h3 {
+        text-align: center;
+        padding: 30vh 2px 1px 2px;
+    }
+    .social-media-section-light h6 {
+        text-align: center;
+        padding: 1vh 8px 1px 5px;
+    }
+    .social-media-section-light p {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.social-media-section-dark *, .social-media-section-dark a {
+    color: white;
+}
+
+.social-media-section-dark {
+    background-color: black;
+}
+
+.social-media-section-dark h3 {
+    text-align: right;
+    padding: 40vh 2px 0px 35px;
+}
+
+.social-media-section-dark h6 {
+    text-align: right;
+    padding: 2vh 2px 0px 35px;
+}
+
+.social-media-section-dark p {
+    text-align: center;
+    padding: 45vh 0px 0px 15px;
+}
+
+@media only screen and (max-width: 576px) {
+    .social-media-section-dark h3 {
+        text-align: center;
+        padding: 30vh 2px 1px 2px;
+    }
+    .social-media-section-dark h6 {
+        text-align: center;
+        padding: 1vh 5px 1px 5px;
+    }
+    .social-media-section-dark p { 
+        text-align: center;
+        padding: 0;
+    }
+}
+
+#footer {
+    padding-top: 10px;
+    text-align: center;
+}
